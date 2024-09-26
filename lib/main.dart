@@ -1,8 +1,17 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:location_tracker/app/home.dart';
+import 'package:location_tracker/app/pages/admin/admin_home_page.dart';
+import 'package:location_tracker/app/pages/employee/employee_home_page.dart';
 
-import 'order_tracking_page.dart';
+import 'firebase_options.dart';
+import 'pages/order_tracking_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+);
   runApp(const MyApp());
 }
 
@@ -22,7 +31,7 @@ class MyApp extends StatelessWidget {
           elevation: 0,
         ),
       ),
-      home: const OrderTrackingPage(),
+      home: const Home(),
     );
   }
 }
