@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102356954769",
+    "project_id": "location-shower-8c2d5",
+    "storage_bucket": "location-shower-8c2d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102356954769:android:7d0238c75985efb645d930",
+        "android_client_info": {
+          "package_name": "com.example.location_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1RwzCGqJb-7lUi1RUJbVCrSJr7E-aB_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
